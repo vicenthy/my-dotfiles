@@ -1,7 +1,6 @@
 #!/bin/bash
-
+cp -f .gitconfig ~/.gitconfig
 read -s -p "entre com a senha sudo: " sudoPW
-
 echo "Atualizando lista de pacotes e programas"
 echo $sudoPW | sudo -S apt update
 echo "Instalando neovim"

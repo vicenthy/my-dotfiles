@@ -1,0 +1,6 @@
+[push]
+	default = simple
+	followTags = true
+[user]
+	email = atila.sistemas@gmail.com
+	name = Atila Augusto
